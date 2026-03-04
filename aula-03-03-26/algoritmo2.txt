@@ -1,0 +1,15 @@
+Inicio
+
+Variavel varA, varB, varAux
+
+ler varA
+ler varB
+
+varAux <- varA
+varA <- varB
+varB <- varAux
+
+escreva "O novo valor de A é: ", + varA
+escreva "O novo valor de B é: ", + varB
+
+Fim
