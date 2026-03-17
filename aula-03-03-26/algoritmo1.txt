@@ -12,6 +12,6 @@ Leia ("Digite a nota da primeira prova: " + nota3)
 media <- (nota1 + nota2 + nota3) /3
 
 Escreva ("Nome: " + nome)
-Escreva ("Média: " + media)
+Escreva ("A média foi de: " + media)
 
 Fim
