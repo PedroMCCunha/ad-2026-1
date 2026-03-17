@@ -1,16 +1,17 @@
 Inicio
 
-Var nome, nota1, nota2, nota3, soma, media
+Var
+nome: Caractere
+nota1, nota2, nota3, media: Real
 
-ler nome
-ler nota1
-ler nota2
-ler nota3
+Leia ("Digite seu nome: " + nome)
+Leia ("Digite a nota da primeira prova: " + nota1)
+Leia ("Digite a nota da primeira prova: " + nota2)
+Leia ("Digite a nota da primeira prova: " + nota3)
 
-soma = nota1 + nota2 + nota3
-media = soma / 3
+media <- (nota1 + nota2 + nota3) /3
 
-escrever "Nome: " + nome
-escrever "Média: " + media
+Escreva ("Nome: " + nome)
+Escreva ("Média: " + media)
 
 Fim
