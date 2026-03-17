@@ -1,11 +1,6 @@
 Inicio
 
-Variável nome, nota1, nota2, nota3, soma, media
-
-Escreva "Escreva seu nome: "
-Escreva "Nota da primeira prova: "
-Escreva "Nota da segunda prova: "
-Escreva "Nota da terceira prova: "
+Var nome, nota1, nota2, nota3, soma, media
 
 ler nome
 ler nota1
@@ -15,7 +10,7 @@ ler nota3
 soma = nota1 + nota2 + nota3
 media = soma / 3
 
-escreva "Nome: ", + nome
-escreva "Média: ", + media
+escrever "Nome: " + nome
+escrever "Média: " + media
 
 Fim
