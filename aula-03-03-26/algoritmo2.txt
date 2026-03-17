@@ -1,15 +1,15 @@
 Inicio
 
-Variavel varA, varB, varAux
+Var varA, varB, varC
 
 ler varA
 ler varB
 
-varAux <- varA
+varC <- varA
 varA <- varB
-varB <- varAux
+varB <- varC
 
-escreva "O novo valor de A é: ", + varA
-escreva "O novo valor de B é: ", + varB
+escrever "valor de A agora é: ", varA
+escrever "valor de B agora é: ", varB
 
 Fim
