@@ -10,7 +10,7 @@ varC <- varA
 varA <- varB
 varB <- varC
 
-escrever "valor de A agora é: ", varA
-escrever "valor de B agora é: ", varB
+Escreva ("valor de A agora é: ") varA
+Escreva ("valor de B agora é: ") varB
 
 Fim
