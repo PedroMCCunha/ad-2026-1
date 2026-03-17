@@ -1,10 +1,6 @@
 Inicio
 
-Variavel nome, salario, vendas, comissao
-
-escreva "Informe o Nome: " (nome)
-escreva "Informe o salário: " (salario)
-escreva "Informe a quantia de vendas: " (vendas)
+Var nome, salario, vendas, comissao
 
 ler nome
 ler salario
@@ -12,9 +8,9 @@ ler vendas
 
 comissao = salario * 0.15
 
-escreva "Nome: ", + nome
-escreva "Salário: ", + salario
-escreva "Vendas: ", + vendas
-escreva "Sua comissão foi de: ", + comissao
+escrever "Nome: " + nome
+escrever "Salário fixo: " + salario
+escrever "Vendas: " + vendas
+escrever "Comissão: " + comissao
 
 Fim
