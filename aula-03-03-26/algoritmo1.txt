@@ -4,10 +4,10 @@ Var
 nome: Caractere
 nota1, nota2, nota3, media: Real
 
-Leia ("Digite seu nome: " + nome)
-Leia ("Digite a nota da primeira prova: " + nota1)
-Leia ("Digite a nota da primeira prova: " + nota2)
-Leia ("Digite a nota da primeira prova: " + nota3)
+Leia ("Digite seu nome: ") + nome
+Leia ("Digite a nota da primeira prova: ") + nota1
+Leia ("Digite a nota da primeira prova: ") + nota2
+Leia ("Digite a nota da primeira prova: ") + nota3
 
 media <- (nota1 + nota2 + nota3) /3
 
