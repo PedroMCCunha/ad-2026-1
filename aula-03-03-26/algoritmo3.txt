@@ -1,16 +1,18 @@
 Inicio
 
-Var nome, salario, vendas, comissao
+Var
+nome: Caractere
+salario, vendas, comissao, salarioFinal: Real
 
-ler nome
-ler salario
-ler vendas
+Leia ("Digite o nome: ") + nome
+Leia ("Digite o salario: ") + salario
+Leia (Digite a quantidade de vendas: ") + vendas
 
-comissao = salario * 0.15
+comissao <- salario * 0.15
+salarioFinal <- salario + comissao
 
 escrever "Nome: " + nome
 escrever "Salário fixo: " + salario
-escrever "Vendas: " + vendas
-escrever "Comissão: " + comissao
+escrever "Salário Final: " + salarioFinal
 
 Fim
