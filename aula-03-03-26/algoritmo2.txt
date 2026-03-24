@@ -1,15 +1,16 @@
 Inicio
 
-Variavel varA, varB, varAux
+Var
+varA, varB, varC: Real
 
-ler varA
-ler varB
+Leia ("DIgite o valor de A: ") + varA
+Leia ("Digite o valor de B: ") + varB
 
-varAux <- varA
+varC <- varA
 varA <- varB
-varB <- varAux
+varB <- varC
 
-escreva "O novo valor de A é: ", + varA
-escreva "O novo valor de B é: ", + varB
+Escreva ("valor de A agora é: ") varA
+Escreva ("valor de B agora é: ") varB
 
 Fim
