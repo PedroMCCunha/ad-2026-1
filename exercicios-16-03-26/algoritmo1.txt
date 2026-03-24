@@ -1,0 +1,13 @@
+Inicio
+
+Var
+distTotal, consTotal, consMedio: Real
+
+leia ("Informe a distância total percorrida: " + distTotal);
+leia ("Informe o total de combustível gasto: " + consTotal);
+
+consMedio <- distTotal / consTotal;
+
+escreva ("O consumo médio do veículo foi de: " + consMedio);
+
+Fim

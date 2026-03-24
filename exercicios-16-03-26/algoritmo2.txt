@@ -1,0 +1,12 @@
+Inicio
+
+Var
+celsius, fahrenheit: Real
+
+leia ("Informe a temperatura em °C: " + celsius);
+
+fahrenheit <- (9 * celsius + 160) /5;
+
+escreva ("Temperatura em °F: " + fahrenheit);
+
+Fim

@@ -1,0 +1,15 @@
+Inicio
+
+Var
+custoFinal, custoFabrica, porcentDist, imposto, custoFabImp: Real
+
+leia ("Informe o custo de fábrica do veículo: " + custoFabrica);
+
+imposto <- custoFabrica * 0.45;
+custoFabImp <- custoFabrica + imposto;
+porcentDist <- custoFabImp * 0.28;
+custoFinal <- custoFabImp + porcentDist;
+
+escreva ("O custo final para o consumidor será de: " + custoFinal;
+
+Fim

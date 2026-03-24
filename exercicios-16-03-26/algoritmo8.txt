@@ -1,0 +1,21 @@
+Inicio
+
+Var
+idade: Inteiro
+
+para i de 1 até 75 faça;
+	Escreva ("Informe a idade da pessoa ", i, ": ");
+	Leia (idade);
+
+	se (idade >= 60);
+		escreva ("Pessoa ", i, ": idoso");
+	senão;
+		se (idade >= 18);
+			escreva ("Pessoa ", i, "é maior de idade");
+		senão;
+			escreva ("Pessoa ", i, "é menor de idade");
+		fim se;
+	fim se;
+fim para;
+
+Fim

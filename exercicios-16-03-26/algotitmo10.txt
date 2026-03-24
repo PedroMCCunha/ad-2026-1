@@ -1,0 +1,30 @@
+Inicio
+
+Var
+n, t, resultado: Inteiro
+o: Caractere
+
+leia ("Informe o número base: " + n);
+leia ("Informe o operador: " + o);
+leia ("Informe o último número: " + t);
+
+para i de 1 ate T faça;
+	se (o = "S");
+		resultado <- n + i;
+		escreva (n, " + ", i, " = " + resultado);
+
+	senão se (o = "-");
+		resultado <- n - i;
+		escreva (n, " - ", i, " = " + resultado);
+
+	senão se (o = "*");
+		resultado <- n * i;
+		escreva (n, " * ", i, " = " + resultado);
+
+	senão se (o = "/");
+		resultado <- n / i;
+		escreva (n, " / ", i, " = " + resultado);
+	fim se;
+fim para;
+
+Fim

@@ -1,0 +1,37 @@
+Inicio
+
+Var
+num1, num2: Inteiro
+
+leia ("Informe o primeiro número: " + num1);
+leia ("Informe o segundo número: " + num2);
+
+se (num1 = num2) então;
+	escreva ("O primeiro e o segundo número são iguais.");
+senão;
+	se (num1 > num2);
+		escreva (num1 "é o maior valor.");
+		se (num1 >= 1 e num1 <= 99) então;
+			escreva ("Este valor está entre 1 e 99.");
+		senão;
+			se (num1 >= 100 e num1 <= 199) então;
+				escreva ("Este valor está entre 100 e 199.");
+			senão
+				escreva ("Este valor é igual ou maior que 200.");
+			fim se;
+		fim se;
+	senão;
+		escreva (num2 "é o maior valor.");
+		se (num2 >= 1 e num1 >= 99) então;
+			escreva ("Este valor está entre 1 e 99.");
+		senão;
+			se (num2 >= 100 e num1 <= 199) então;
+				escreva ("Este valor está entre 100 e 199.");
+			senão
+				escreva ("Este valor é igual ou maior que 200.");
+			fim se;
+		fim se;
+	fim se;
+fim se;
+
+Fim

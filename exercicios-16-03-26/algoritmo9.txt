@@ -1,0 +1,36 @@
+Inicio
+
+Var
+valor, desconto, valorFinal: Real
+ano, ate2010, geral: Inteiro
+resposta: Logico
+
+ate2010 <- 0;
+geral <- 0;
+
+repetir
+	leia ("Valor do carro: " + valor);
+	leia ("Ano do carro: " + ano);
+
+	se (ano <= 2010);
+		desconto <- valor * 0.12;
+		ate2010 <- ate2010 + 1;
+	senão;
+		desconto <- valor * 0.07;
+	fim se;
+
+valorFinal <- valor - desconto;
+
+escreva ("Desconto de: " + desconto);
+escreva ("Valor a pagar: " + valorFinal);
+
+geral <- geral + 1;
+
+leia ("Deseja continuar? Escreva S para sim ou N para não: " + resposta);
+
+ate (resposta = "N");
+
+escreva ("Total de carros até 2010: " + ate2010);
+escreva ("Total geral de carros: " + geral);
+
+Fim

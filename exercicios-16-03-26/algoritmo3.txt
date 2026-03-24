@@ -1,0 +1,13 @@
+Inicio
+
+Var
+valorReal, cotacao, dolaresDisp: Real
+
+leia ("Informe a cotação do dólar atual: " + cotacao);
+leia ("Informe a quantidade de dólares: " + dolaresDisp);
+
+valorReal <- dolaresDisp/cotacao;
+
+escreva: ("O valor em reais é de: " + valorReal);
+
+Fim

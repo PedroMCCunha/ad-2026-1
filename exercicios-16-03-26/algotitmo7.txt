@@ -1,0 +1,25 @@
+Inicio
+
+Var
+nome, nota1, nota2, nota3, media: Real
+
+leia ("Informe o nome do aluno: " + nome);
+leia ("Informe a primeira nota: " + nota1);
+leia ("Informe a segunda nota: " + nota2);
+leia ("Informe a terceira nota: " + nota3);
+
+media <- (nota1 + nota2 + nota3) /3;
+
+escreva ("Nome: " + nome);
+
+se (media <= 5);
+	escreva ("Aluno reprovado.);
+senão;
+	se (media > 5 e media < 7);
+		escreva (Aluno em recuperação.);
+	senão;
+		escreva (Aluno aprovado.);
+	fim se;
+fim se;
+
+Fim

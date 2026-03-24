@@ -1,0 +1,13 @@
+Inicio
+
+Var
+deposito, rendimento, valorMes: Real
+
+leia ("Digite o valor do depósito: " + deposito);
+
+rendimento <- deposito * 0.07;
+valorMes <- deposito + rendimento;
+
+escreva ("O valor após 1 mês de rendimento será de: " + valorMes);
+
+Fim
